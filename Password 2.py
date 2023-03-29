@@ -4,7 +4,6 @@
 passwords = {}
 
 # Using 3 functions like adding passwords to account and asking to get password from dictionary
-def add_password(account, password):
     # Check if account name already exists in the dictionary
     if account in passwords:
         print(f"Account name '{account}' already exists.")
