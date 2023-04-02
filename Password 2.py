@@ -1,10 +1,11 @@
-# Version 2: Password Manager with Improved Functionality
+#Version 2: Password Manager with Improved Functionality
 
-# Creating an empty dictionary to store account name and password
+#Creating an empty dictionary to store account name and password
 passwords = {}
 
-# Using 3 functions like adding passwords to account and asking to get password from dictionary
-    # Check if account name already exists in the dictionary
+#Using 3 functions like adding passwords to account and asking to get password from dictionary
+def add_password(account, password):
+    #Check if account name already exists in the dictionary
     if account in passwords:
         print(f"Account name '{account}' already exists.")
     else:
